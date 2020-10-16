@@ -4,6 +4,20 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="CAndI\IProductRepository.cs" />
+    <Content Include="Models\Category.cs" />
+    <Content Include="CAndI\ProductRepository.cs" />
+    <Content Include="CAndI\Program.cs" />
+    <Content Include="CAndI\Startup.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="MySql.Data" Version="8.0.21" />
+  </ItemGroup>
+
 
 
 </Project>
